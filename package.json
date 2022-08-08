@@ -1,10 +1,10 @@
 {
-  "name": "btn-ui",
+  "name": "btn-uif",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "halisogluiskender",
   "license": "MIT",
-  "repository": "halisogluiskender/btn-ui",
+  "repository": "halisogluiskender/btn-uif",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

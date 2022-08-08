@@ -13,16 +13,20 @@ npm install --save btn-ui
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import { Button } from 'btn-ui'
 
-import MyComponent from 'btn-ui'
-import 'btn-ui/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
+const example = () => {
+    return (
+       <>
+        <Button text='Primary Button' className='btn-ui btn-ui-primary' /><br />
+        <Button text='Default Button' className='btn-ui' /> <br />
+        <Button text='Dashed Button' className='btn-ui btn-ui-dashed' /> <br />
+        <Button text='Text Button' className='btn-ui btn-ui-text' /> <br />
+        <Button text='Link Button' className='btn-ui btn-ui-link' /> <br />
+       </>
+    )
   }
-}
+export default example;
 ```
 
 ## License

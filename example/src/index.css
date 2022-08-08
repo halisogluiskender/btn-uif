@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 14px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,4 +12,73 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+* {
+  box-sizing: border-box;
+}
+.code-box-demo {
+  padding: 42px 24px 50px;
+  color: #000000d9;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  gap: 5px;
+}
+
+.btn-ui {
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  box-shadow: 0 2px #00000004;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  color: #000000d9;
+  border-color: #d9d9d9;
+  background: #fff;
+}
+.btn-ui:hover {
+  border: 1px solid #1890ff;
+  color: #1890ff;
+}
+.btn-ui.btn-ui-primary {
+  color: #fff;
+  border-color: #1890ff;
+  background: #1890ff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px #0000000b;
+}
+.btn-ui.btn-ui-dashed {
+  color: #000000d9;
+  border-color: #d9d9d9;
+  background: #fff;
+  border-style: dashed;
+}
+.btn-ui.btn-ui-dashed:hover {
+  border: 1px dashed #1890ff;
+  color: #1890ff;
+}
+.btn-ui.btn-ui-text {
+  color: #000000d9;
+  border-color: transparent;
+  background: 0 0;
+  box-shadow: none;
+}
+.btn-ui.btn-ui-link {
+  color: #1890ff;
+  border-color: transparent;
+  background: 0 0;
+  box-shadow: none;
 }
